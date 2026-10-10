@@ -4,6 +4,20 @@ A Windows desktop assistant that provides context-aware programming help. Screen
 
 **Status:** MVP complete (v1.1.1, Phases 1–11 + multi-provider update). 89 tests pass with no network calls; `dist/AI-Companion/AI-Companion.exe` launches and persists its DB/logs next to the exe.
 
+## 📸 Screenshots
+
+| Dashboard | Chat Interface |
+|:---:|:---:|
+| ![Dashboard](assets/screenshots/Dashboard.PNG) | ![Chat](assets/screenshots/Chat.PNG) |
+
+| Error Notification Popup | Monitoring Page |
+|:---:|:---:|
+| ![Error Popup](assets/screenshots/pop-up.PNG) | ![Monitoring](assets/screenshots/Monitoring.PNG) |
+
+| Settings & Avatar Selection | History Page |
+|:---:|:---:|
+| ![Settings](assets/screenshots/Settings.PNG) | ![History](assets/screenshots/History.PNG) |
+
 ## Tech stack
 
 - Python 3.x
