@@ -62,6 +62,16 @@ Copy `.env.example` to `.env` next to the exe and add `OPENAI_API_KEY` for live 
 Optional installer: `installer.iss` (Inno Setup 6) wraps the PyInstaller
 output into `dist-installer\AI-Companion-Setup-*.exe`. Build with `iscc installer.iss`.
 
+## 🚀 Future Roadmap & Enhancements
+
+Planned features for future releases:
+- **🎙️ Voice Assistance**: Real-time speech-to-text input and voice responses from the companion.
+- **🌅 Dynamic Greetings**: Context- and time-aware greetings on the Dashboard (e.g., *"Good Morning"*, *"Good Evening"* with personalized companion quips).
+- **🎨 Extended Customization**:
+  - Additional application themes (OLED Dark, Cyberpunk, Pastel).
+  - Configurable typography and font family/size options.
+- **🐾 More Companion Personas**: Additional animated avatars and expressive reaction states.
+
 ## Project status
 
 See `PROJECT_STATUS.md` for the current phase, completed work, and next tasks.
