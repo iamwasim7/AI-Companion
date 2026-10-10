@@ -36,10 +36,6 @@ Phase 11 — Packaging (complete) · MVP DONE · v1.3.0 flexible AI provider & m
 - Fixed first-run seed logic (fresh DB now seeds correctly)
 - Headless offscreen UI smoke test passing (full loop: ANALYZING → RESPONDING → IDLE)
 
-## Deliberately Not Implemented
-
-- None — all MVP phases (1–11) are complete. Future/optional ideas (voice,
-  cloud sync, auto-fix execution) remain out of scope per Master Spec §6.
 
 ## Live Mode Setup
 
@@ -49,11 +45,6 @@ Phase 11 — Packaging (complete) · MVP DONE · v1.3.0 flexible AI provider & m
 4. Use Chat. The app sends only the recent text in that chat, never any screen content without consent.
 5. Enable Monitoring: significant screen changes run local OCR + detection; only concise error context is sent to OpenAI after a local error signal, never screenshots.
 6. History persists in `data/ai_companion.db`; retention and clearing are in Settings. Screenshots are never stored.
-
-## Next Tasks
-
-- MVP is complete. Optional follow-ups: installer (Inno Setup), app icon,
-  auto-update, cloud sync — all out of scope unless requested.
 
 ## Packaging
 
