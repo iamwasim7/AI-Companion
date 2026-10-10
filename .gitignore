@@ -1,0 +1,46 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Testing / tooling
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Logs and local data
+logs/
+*.db
+*.sqlite
+*.sqlite3
+
+# Packaging (build output ignored, but the build spec itself is committed)
+!ai-companion.spec
+dist/
+dist-installer/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
